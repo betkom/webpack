@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "module": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "alwaysStrict":true,
+    "lib": [
+      "es5",
+      "dom",
+      "es2015","ScriptHost","es6"
+    ]
+  },
+  "angularCompilerOptions": {
+    "skipMetadataEmit": true,
+      "entryModule": "./assets/app/app.module"
+  }
+}
