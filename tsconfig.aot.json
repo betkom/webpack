@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "target": "es2015",
     "module": "es6",
     "moduleResolution": "node",
     "sourceMap": false,
@@ -16,7 +16,6 @@
     "es5",
     "dom",
     "es2015",
-    "es2017",
     "ScriptHost"
   ],
   "angularCompilerOptions": {
