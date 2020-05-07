@@ -27,7 +27,7 @@ module.exports = {
   plugins: [    // new CleanWebpackPlugin(['dist/*']) for < v2 versions of CleanWebpackPlugin
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Production',
+      title: 'Title',
     }),
   ]
 };
